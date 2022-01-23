@@ -1,0 +1,22 @@
+.rounded {
+    border-radius: 0.7rem !important;
+}
+
+.boxes {
+    &__item {
+        background-color: getColour(secondary);
+        margin: 28px;
+        width: 264px;
+        height: 263px;
+    }
+
+    &__colour--white {
+        background-color: getColour(white);
+        border: 3px solid getColour(pink);
+    }
+
+    &__colour--pink {
+        background-color: getColour(pink);
+        border: 3px solid getColour(white);
+    }
+}

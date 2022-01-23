@@ -1,0 +1,39 @@
+.bg-light {
+    background-color: getColour(secondary) !important;
+}
+
+.container-fluid {
+    max-width: 1280px;
+}
+
+.navbar-light .navbar-brand {
+    color: getColour(title-grey);
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: getColour(secondary);
+}
+
+.nav {
+
+    background-color: getColour(secondary);
+    font-family: $font-secondary;
+
+    &__inner {
+        max-width: 1340px;
+    }
+
+    &__item {
+        font-family: $font-primary;
+        color: getColour(text-grey);
+        margin-right: 1rem;
+    }
+
+    &__item--active {
+        color: getColour(pink) !important;
+    }
+}
